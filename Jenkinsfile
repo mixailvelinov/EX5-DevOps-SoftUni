@@ -24,6 +24,12 @@ pipeline{
             }
         }
 
+        stage("Set up.NET CORE"){
+            steps{
+                bat 'install dotnet-sdk -y'
+            }
+        }
+        
         stage("Build") {
           steps {
             bat 'dotnet build'
