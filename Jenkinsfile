@@ -26,7 +26,7 @@ pipeline{
 
         stage("Set up.NET CORE"){
             steps{
-                bat 'choco install dotnet-sdk -y'
+                bat 'choco install dotnet-sdk --version=9.0.200 -y'
             }
         }
         
