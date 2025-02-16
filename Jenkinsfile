@@ -13,7 +13,7 @@ pipeline{
             steps {
                 git(
                   branch: 'main',
-                  url: 'https://github.com/mixailvelinov/EXC5-devops'
+                  url: 'https://github.com/mixailvelinov/EX5-DevOps-SoftUni'
             )
             }
         }
